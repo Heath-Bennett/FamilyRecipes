@@ -1,10 +1,29 @@
-body, html {
-    height: 100%;
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+
+    width: 200%;
+    height: 200%;
 }
-.bg {
-    background-image: url("/assets/images/shutterstock_landing.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
 }
+
+.centered{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
